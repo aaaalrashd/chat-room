@@ -20,7 +20,7 @@ public class Message {
     private String type = "SEND";
 
 
-    public Message(){}
+    public Message(String s){}
 
     public Message(String username, String message, int counter, String type, String status){
         this.username = username;
